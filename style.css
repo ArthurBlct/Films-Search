@@ -34,14 +34,14 @@ input{
     border: 1px solid #000;
 }
 
-section{
+section>div{
     background-color: burlywood;
-}
-
-div{
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
 }
 
 .poster{
     width: 15vw;
 }
+
