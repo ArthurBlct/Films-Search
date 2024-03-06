@@ -1,0 +1,47 @@
+img{
+    display: flex;
+    width: 32rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+.browser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    padding: 2rem;
+}
+
+button{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 6rem;
+    height: 2rem;
+    background-color: #ffffff00;
+    border: 1px solid #000;
+    
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 7px;
+    border: 1px solid #000;
+}
+
+section{
+    background-color: burlywood;
+}
+
+div{
+    flex-wrap: wrap;
+}
+
+.poster{
+    width: 15vw;
+}
