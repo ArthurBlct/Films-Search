@@ -20,7 +20,8 @@ button{
     padding: 0.5rem;
     width: 6rem;
     height: 2rem;
-    background-color: #ffffff00;
+    /* background-color: #ffffff00; */
+    background-color: #ffffff;
     border: 1px solid #000;
     
     border-radius: 5px;
@@ -34,11 +35,21 @@ input{
     border: 1px solid #000;
 }
 
-section>div{
-    background-color: burlywood;
+.list{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    /* gap: 1rem; */
+    /* background-color: #303ecb; */
+    background-color: #9a30cb;
+    color : white;
+}
+
+.movie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: violet;    
 }
 
 .poster{
